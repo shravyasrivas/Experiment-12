@@ -23,29 +23,17 @@ The following Pandas commands were used to manipulate and analyze the categorica
 | Command | One-Line Description |
 | :--- | :--- |
 | `pd.read_csv()` | Loads data from an external CSV file into a DataFrame. |
-
 | `df.head()` | Displays the first five rows of the dataset to provide a quick preview. |
-
 | `df.info()` | Provides a summary of the dataset including column names, non-null counts, and data types. |
-
 | `.value_counts()` | Calculates the frequency of occurrences for each unique category in a column. |
-
 | `.value_counts(normalize=True)` | Returns the relative proportions (percentage distribution) of categories instead of raw counts. |
-
 | `pd.crosstab()` | Computes a frequency table (contingency table) to show the relationship between two categorical variables. |
-
 | `normalize='index'` | An argument in `crosstab` that calculates percentages across rows rather than total counts. |
-
 | `df.groupby()` | Clusters the data into groups based on a specific column for aggregate analysis. |
-
 | `pd.DataFrame()` | Manually creates a new DataFrame object from a Python dictionary. |
-
 | `.unique()` | Lists all the distinct category names found within a specific column. |
-
 | `.nunique()` | Counts the total number of unique categories present in a column. |
-
 | `df[df['Col'] == 'Val']` | Filters the DataFrame to include only rows that match a specific category value. |
-
 | `.sort_values()` | Rearranges the rows of the table alphabetically or numerically based on a selected column. |
 
 ---
